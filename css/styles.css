@@ -3033,7 +3033,7 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #ceb2ad;
+  background-color: #b9928b;
   border-color: #ceb2ad;
 }
 .btn-primary:hover {
@@ -7764,7 +7764,6 @@ textarea.form-control-lg {
 
 .text-white {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
 
 .text-body {
@@ -7774,8 +7773,13 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  
 }
+
+#contact{
+  background-color: #f0f1f0;
+}
+
 
 .text-black-50 {
   --bs-text-opacity: 1;
@@ -7810,7 +7814,6 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: #ceb2ad !important;
    ;
 }
 
@@ -7846,7 +7849,7 @@ textarea.form-control-lg {
 
 .bg-dark {
   --bs-bg-opacity: 1;
-  background-color: #ceb2ad !important;
+  
 }
 
 .bg-black {
@@ -11301,16 +11304,21 @@ body {
 }
 
 #services{
-  padding-bottom: 60px;
+  padding-bottom: 100px;
+  background-color: #f0f1f0;
 }
 
 .page-section {
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom: 37px;
 }
 
-.text-white-75 {
-  color: rgba(255, 255, 255, 0.75) !important;
+#head {
+  color:#fff
+}
+
+#subhead{
+  color:#fff
 }
 
 .btn-xl {
@@ -11331,7 +11339,7 @@ hr.divider {
 }
 
 hr.divider-light {
-  background-color: #fff;
+  background-color: #b9928b;
 }
 
 #mainNav {
@@ -11380,7 +11388,8 @@ hr.divider-light {
   }
   #mainNav.navbar-shrink {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    background-color: #e0d4ca;
+    background-color: #b9928b;
+    opacity: 90%;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #b9928b;
@@ -11400,12 +11409,16 @@ header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
   background:url("../assets/img/cover.jpg");
-  opacity: 80%;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
+
+#contact{
+  padding-top: 150px;
+}
+
 header.masthead h1, header.masthead .h1 {
   font-size: 2.25rem;
 }
