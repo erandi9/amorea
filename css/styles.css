@@ -105,7 +105,7 @@ hr:not([size]) {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: p;
   font-weight: 500;
   line-height: 1.2;
 }
@@ -3033,12 +3033,12 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #b9928b;
-  border-color: #ceb2ad;
+  background-color: #90BDB9;
+  border-color: #90BDB9;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #c27958;
+  background-color: #6D8F8C;
   border-color: #c27958;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
@@ -11337,17 +11337,17 @@ hr.divider {
   height: 0.2rem;
   max-width: 3.25rem;
   margin: 1.5rem auto;
-  background-color: #b9928b;
+  background-color: #90BDB9;
   opacity: 1;
 }
 
 hr.divider-light {
-  background-color: #b9928b;
+  background-color: #90BDB9;
 }
 
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  background-color: #fff;
+  background-color: #b9928b;
   transition: background-color 0.2s ease;
 }
 #mainNav .navbar-brand {
@@ -11369,10 +11369,9 @@ hr.divider-light {
   color: #814432 !important;
 }
 @media (min-width: 992px) {
-  #mainNav {
-    box-shadow: none;
-    background-color: transparent;
-  }
+ /* #mainNav {
+    
+  }*/
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
   }
@@ -11416,6 +11415,7 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  height: 100vh;
 }
 
 #contact{
